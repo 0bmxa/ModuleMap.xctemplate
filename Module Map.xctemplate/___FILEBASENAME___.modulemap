@@ -17,13 +17,13 @@ framework module ___FILEBASENAMEASIDENTIFIER___ {
 
 /*
 module ___FILEBASENAMEASIDENTIFIER___.Swift {
-    header "___FILENAME___-Swift.h"
+    header "___FILEBASENAMEASIDENTIFIER___-Swift.h"
     requires objc
 }
 */
 
 /*
 module ___FILEBASENAMEASIDENTIFIER___.__Swift {
-    exclude header "___FILENAME___-Swift.h"
+    exclude header "___FILEBASENAMEASIDENTIFIER___-Swift.h"
 }
 */
