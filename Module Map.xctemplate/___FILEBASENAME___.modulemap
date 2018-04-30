@@ -1,0 +1,29 @@
+//
+//  ___FILENAME___
+//  ___PROJECTNAME___
+//
+//  Created by ___FULLUSERNAME___ on ___DATE___.
+//  ___COPYRIGHT___
+//
+
+framework module ___FILEBASENAMEASIDENTIFIER___ {
+    umbrella header "___FILEBASENAMEASIDENTIFIER___.h"
+
+    export *
+    module * { export * }
+
+    // requires objc
+}
+
+/*
+module ___FILEBASENAMEASIDENTIFIER___.Swift {
+    header "___FILENAME___-Swift.h"
+    requires objc
+}
+*/
+
+/*
+module ___FILEBASENAMEASIDENTIFIER___.__Swift {
+    exclude header "___FILENAME___-Swift.h"
+}
+*/
