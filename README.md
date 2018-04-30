@@ -4,11 +4,11 @@ An Xcode file template for a `.modulemap` file.
 ## Installation
 
 1. Make sure you have the `Templates/Other/` directory in your home
-    ```
+    ```shell
     mkdir -p ~/Library/Developer/Xcode/Templates/Other/
     ```
 2. Copy the `Module Map.xctemplate` folder there.
-    ```
+    ```shell
     cp 'Module Map.xctemplate' ~/Library/Developer/Xcode/Templates/Other/
     ```
 
@@ -16,7 +16,7 @@ An Xcode file template for a `.modulemap` file.
 ![Xcode's New File dialog](.README/new_file_dialog.png)
 
 ### Generated source file example
-```
+```c
 //
 //  MyModule.modulemap
 //  MyModule
